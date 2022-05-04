@@ -6,9 +6,15 @@
 
 ## 代码演示
 
+```shell
+npm install mini-async-scheduler
+```
+
 ### 基础用法
 
 ```typescript
+import asyncScheduler from "mini-async-scheduler";
+
 const generatorTask =
   <T>(ms: number, taskId: T): (() => Promise<T>) =>
   () =>

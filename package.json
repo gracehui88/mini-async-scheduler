@@ -23,7 +23,8 @@
   "keywords": [
     "mini-async-scheduler",
     "concurrency",
-    "async"
+    "async",
+    "queue"
   ],
   "author": "Grace",
   "license": "MIT",
